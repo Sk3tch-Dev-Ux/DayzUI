@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{710C2F2A34B0806A}Colorful-UI/GUI/textures/Ash&PineLogo.edds"
+ Author "sk3tch"
+ ChangeDate -2061798311
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "Ash&PineLogo.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

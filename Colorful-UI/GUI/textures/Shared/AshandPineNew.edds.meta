@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{8F2A6FD0738445E6}Colorful-UI/GUI/textures/Shared/AshandPineNew.edds"
+ Author "sk3tch"
+ ChangeDate 323712089
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "AshandPineNew.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}
