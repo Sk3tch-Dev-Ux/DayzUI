@@ -51,4 +51,5 @@ class UIColor
 	static int cuiBarkBrown()     { return ARGB(255, 181, 166, 127); };   // Bark Brown
 	static int cuiForestGreen()   { return ARGB(255, 44, 62, 52); };      // Deep Forest Green
 	static int cuiSlateGray()     { return ARGB(255, 70, 70, 70); };      // Slate Gray
+    static int cuiDarkBlue()      { return ARGB(255, 36, 44, 62); };      // Dark Blue (legacy, for compatibility)
 }
