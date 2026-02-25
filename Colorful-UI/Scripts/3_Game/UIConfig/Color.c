@@ -19,7 +19,7 @@ class UIColor
 	static int Violet()           { return ARGB(255, 204, 51, 204); };
 	
 	// Social Network Colors 
-	static int Discord()          { return ARGB(255, 88, 101, 242); };
+	static int Discord()          { return ARGB(255, 34, 85, 51); }; // Pine Green for Ash & Pine
 	static int Twitter()          { return ARGB(255, 88, 101, 242); };
 	static int Facebook()         { return ARGB(255, 59, 89, 152); };
 	static int YouTube()          { return ARGB(255, 205, 32, 31); };
@@ -46,9 +46,9 @@ class UIColor
 	static int Mastodon()         { return ARGB(255, 99, 100, 255); };
  	
 	//Custom Colors 
-	static int cuiTeal()          { return ARGB(255, 102, 153, 153); };
-	static int cuiBlue()          { return ARGB(255, 1, 5, 74); };
-	static int cuiDarkBlue()      { return ARGB(155, 0, 0, 32); };
-	static int cuiSubtleRed()     { return ARGB(255, 100, 35, 35); };
-	static int cuiBrightRed()     { return ARGB(255, 152, 0, 0); };
+	static int cuiPineGreen()     { return ARGB(255, 34, 85, 51); };      // Pine Green
+	static int cuiAshGray()       { return ARGB(255, 120, 120, 120); };   // Ash Gray
+	static int cuiBarkBrown()     { return ARGB(255, 181, 166, 127); };   // Bark Brown
+	static int cuiForestGreen()   { return ARGB(255, 44, 62, 52); };      // Deep Forest Green
+	static int cuiSlateGray()     { return ARGB(255, 70, 70, 70); };      // Slate Gray
 }

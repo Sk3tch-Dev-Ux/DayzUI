@@ -2,10 +2,10 @@
 // Adjust these settings to align with your desired theme and aesthetics.
 class colorScheme 
 {
-	// Brand Specific 
-	static int BrandColor()          { return ARGB(255, 255, 204, 102); }   
-	static int AccentColor()         { return ARGB(255, 100, 35, 35); }  
-	static int TertiaryColor()       { return ARGB(255, 204, 255, 204); }
+	// Brand Specific    
+	static int TertiaryColor()       { return ARGB(255, 34, 85, 51); }      // Pine Green
+	static int AccentColor()         { return ARGB(255, 120, 120, 120); }   // Ash Gray
+	static int BrandColor()          { return ARGB(255, 181, 166, 127); }   // Bark Brown
 
 	// Base Typography 
 	static int PrimaryText()         { return UIColor.White(); }        // Primary text color
@@ -32,8 +32,8 @@ class colorScheme
 
 	// Main Menu
 	static int NavIcon()             { return BrandColor(); }           // Navigation icon color
-	static int SurvivorBox()         { return UIColor.cuiDarkBlue(); }	// Background color for "Survivor" box
-	static int StatsBox()            { return UIColor.cuiDarkBlue(); }  // Background color for "Stats" box
+	static int SurvivorBox()         { return ARGB(255, 44, 62, 52); }      // Deep Forest Green
+	static int StatsBox()            { return ARGB(255, 70, 70, 70); }      // Slate Gray
 
 	// Options Page 
 	static int OptionHeaders()       { return BrandColor(); }           // Header color in options
