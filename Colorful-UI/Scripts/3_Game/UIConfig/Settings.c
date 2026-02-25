@@ -57,7 +57,7 @@ class Branding
 
 class CustomURL {
 	static string Website    = "#"; 
-	static string PriorityQ  = "#";
+	static string PriorityQ  = "https://discord.com/channels/1476254875284275291/1476296623398064138";
 	static string Custom     = "#";
 }
 
